@@ -41,7 +41,7 @@
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="fOyseT9UgSLgXPYGdonsBTB8npaXYnaV" />
 
-        <activity android:name=".LiteActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -49,6 +49,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AboutActivity" />
 
         <activity
             android:name=".DemoMainActivity"
@@ -58,6 +60,10 @@
             android:name=".DemoGuideActivity"
             android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
             android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ParkingDetailsActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            android:theme="@style/AppTheme.NoActionBar.Translucent"></activity>
 
     </application>
 

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:text="username"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <com.project.sit305.utils.LineEditText
+            android:id="@+id/myEdit_uname"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:hint="username"
+            android:maxLength="14"
+            android:paddingLeft="10dp"
+            android:paddingBottom="3dp"
+            android:text="admin"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="#dce5e7"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="400dp"
+        android:layout_height="0.6dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/txt_input_line_color" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:text="password"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <com.project.sit305.utils.LineEditText
+            android:id="@+id/myEdit_pswd"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:hint="username"
+            android:inputType="textPassword"
+            android:maxLength="14"
+            android:paddingLeft="10dp"
+            android:paddingBottom="3dp"
+            android:text="123456"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="#dce5e7"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="400dp"
+        android:layout_height="0.6dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/txt_input_line_color" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_selector"
+        android:text="Login"
+        android:textColor="@color/menu_text_color" />
+</LinearLayout>
