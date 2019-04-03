@@ -16,7 +16,7 @@ import com.project.sit305.R;
 public class ImageLoaderUtils {
 
     public static void display(Context context, ImageView imageView, String url, int placeholder, int error) {
-        if(imageView == null) {
+        if (imageView == null) {
             throw new IllegalArgumentException("argument error");
         }
         Glide.with(context).load(url).placeholder(placeholder)
@@ -24,7 +24,15 @@ public class ImageLoaderUtils {
     }
 
     public static void display(Context context, ImageView imageView, String url) {
-        if(imageView == null) {
+        if (imageView == null) {
+            throw new IllegalArgumentException("argument error");
+        }
+        Glide.with(context).load(url).placeholder(R.drawable.ic_image_loading)
+                .error(R.drawable.ic_image_loadfail).crossFade().into(imageView);
+    }
+
+    public static void display(Context context, ImageView imageView, int url) {
+        if (imageView == null) {
             throw new IllegalArgumentException("argument error");
         }
         Glide.with(context).load(url).placeholder(R.drawable.ic_image_loading)

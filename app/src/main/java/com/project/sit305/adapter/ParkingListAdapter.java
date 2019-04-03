@@ -79,7 +79,7 @@ public class ParkingListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             ((ItemViewHolder) holder).mDistance.setText(news.getDistance() + " areas left");
 //            Uri uri = Uri.parse(news.getImgsrc());
 //            ((ItemViewHolder) holder).mNewsImg.setImageURI(uri);
-            ImageLoaderUtils.display(mContext, ((ItemViewHolder) holder).mNewsImg, "http://cdn-img.q-media.cn/tes/whkm/i/5c7f3b329972f40cec698637.jpg?auth_key=4636195200-0-0-e637817a9531bbbcbe4bc074f3e5681c&x-oss-process=image/resize,m_lfit,h_400,w_400");
+            ImageLoaderUtils.display(mContext, ((ItemViewHolder) holder).mNewsImg, R.mipmap.default_pic);
         }
     }
 

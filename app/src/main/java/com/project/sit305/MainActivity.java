@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 //                sort = 2;
 //                getData();
 //                return true;
-//            default:
+//            default_pic:
 //                return super.onOptionsItemSelected(item);
 //        }
 //

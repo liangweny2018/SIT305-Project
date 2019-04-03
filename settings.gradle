@@ -1,1 +1,1 @@
-include ':app', ':NaviTts', ':onsdk_all', ':swipeback'
+include ':app', ':swipeback', ':NaviTts', ':onsdk_all'

@@ -243,7 +243,7 @@ public class ViewDragHelper {
          * edge drag was preliminarily rejected before beginning, but after
          * {@link #onEdgeTouched(int, int)} was called. This method should
          * return true to lock this edge or false to leave it unlocked. The
-         * default behavior is to leave edges unlocked.
+         * default_pic behavior is to leave edges unlocked.
          *
          * @param edgeFlags A combination of edge flags describing the edge(s)
          *                  locked
@@ -328,7 +328,7 @@ public class ViewDragHelper {
 
         /**
          * Restrict the motion of the dragged child view along the horizontal
-         * axis. The default implementation does not allow horizontal motion;
+         * axis. The default_pic implementation does not allow horizontal motion;
          * the extending class must override this method and provide the desired
          * clamping.
          *
@@ -343,7 +343,7 @@ public class ViewDragHelper {
 
         /**
          * Restrict the motion of the dragged child view along the vertical
-         * axis. The default implementation does not allow vertical motion; the
+         * axis. The default_pic implementation does not allow vertical motion; the
          * extending class must override this method and provide the desired
          * clamping.
          *
